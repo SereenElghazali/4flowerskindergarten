@@ -1,0 +1,256 @@
+/*global*/
+.image-header{
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    background-position: center top;
+    margin-bottom: 40px;
+    position: relative;
+    padding: 80px 0 80px;
+    height: 350px;
+}
+.image-header-overlay{
+    position: absolute;
+    width: 100%;
+    top:0;
+    bottom: 0;
+    background: rgba(17, 17, 17, 0.6);
+}
+
+.page-content{
+    margin: 60px 0;
+}
+
+.page-content h2{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 15px;
+}
+.page-content a{
+    text-decoration: none;
+}
+.pg{
+    margin-right: 30px;
+}
+.page{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius:2px;
+    font-size: 20px;
+    padding-top: 2px;
+    color: #fff;
+    background-color:#92278f;
+    text-align: center;
+    margin: 20px 0 ;
+}
+
+/*global*/
+
+/*Start About Page*/
+.inner-content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.inner-content h2{
+    color: #92278f;
+
+}
+.inner-content p{
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 30px;
+    color: #888;
+}
+.inner-content li{
+    display: inline-block;
+    margin-left: 5px;
+}
+.inner-content li a.facebook{
+    background-color: #3b5998;
+
+}
+.inner-content li a.twitter{
+    background-color: #55acee;
+
+}
+.inner-content li a.linkedin{
+    background-color:#007bb5;
+
+}
+.inner-content li a.instagram{
+    background-color:#e95950;
+
+}
+.inner-content li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height:50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0;
+}
+/*End About Page*/
+
+/*Star Gallary*/
+.gallery-m .l-overlay a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+.gallery-m .l-overlay a:hover{
+    font-size: 30px;
+}
+.gallery-m .gallary-block{
+    margin: 10px auto 20px;
+}
+.gallery-m .gallary-block a{
+    text-decoration: none;
+}
+.gallery-m h4{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align:center;
+    font-size: 18px;
+    color: #fff;
+    background: rgba(146, 39, 143, 0.5);
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+.gallery-m video{
+    margin: auto;
+}
+.gallery-m h2{
+    padding-right: 10px;
+    color: #92278f;
+    font-size: 30px;
+}
+.gallery-m .gallary-block:hover h4{
+    background-color: transparent;
+}
+
+
+/*End Gallary*/
+/*Call us*/
+.call {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.call li {
+    display: block;
+    margin-bottom: 10px;
+}
+.call span{
+    margin-right: 10px;
+}
+.social li{
+    display: inline-block;
+}
+.call li:first-child i{
+    color: #f26522;
+
+}
+.call li:nth-child(2) i{
+    color: #8ac53f;
+}
+.call li:nth-child(3) i{
+    color: #f1c712;
+}
+.call-box{
+    border: 1px solid #ececec;
+    padding: 10px 20px;
+    border-radius: 0px 10px;
+}
+/*Call us*/
+
+
+.gallary-block1{
+    position: relative;
+    object-fit: cover;
+
+}
+.gallary-block1:hover .l-overlay {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+/*event*/
+.events-box{
+    padding: 20px 0;
+}
+.events-box h3{
+    margin-right:10px;
+}
+.event-image img{
+    border-radius: 10px;
+}
+.event-title h2 a, .events-box h3 a {
+    text-decoration: none;
+}
+.event-title {
+    color: #979797;
+    font-size: 14px;
+}
+.event-title-details{
+    margin-top: 10px;
+}
+.event-title-details div{
+    margin-bottom: 10px;
+}
+.about-us a{
+    text-decoration: none;
+}
+.event-title-details i{
+    font-size: 14px;
+    color: #92278f;
+}
+.event-title-details span{
+    margin-right: 10px;
+}
+.event-details p{
+    margin-top: 10px;
+    color: #656f73;
+}
+.e-box{
+    border-top: 1px solid #efefef;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.rc{
+    background-color: #eeeeee;
+}
+
+.act-details{
+    padding: 30px 0;
+}
+.act-details p {
+    margin-top: 20px;
+}
+
+@media all and (max-width: 768px) {
+
+
+    .gallery-m video{
+        width: 200px;
+    }
+    .activity-blog{
+        margin-left: 0;
+        text-align: center;
+    }
+    .activ-block{
+        margin: auto;
+    }
+    .activ-block img{
+        margin: auto;
+    }
+
+}
+
